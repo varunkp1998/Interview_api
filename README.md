@@ -1,1 +1,3 @@
 # Interview_api
+
+The FastAPI Jokes API is a RESTful web service that fetches jokes from the JokeAPI (https://sv443.net/jokeapi/v2/) and stores them in an SQLite database. Built using FastAPI and SQLAlchemy, the application provides an endpoint to retrieve a collection of jokes, which includes details such as category, type, content , and flags indicating whether the joke is safe, political, or sexist. Users can easily fetch a minimum of 100 jokes by calling the /fetch-jokes/ endpoint, which populates the database, and retrieve stored jokes via the /jokes/ endpoint. This lightweight API is designed for quick and efficient joke retrieval, making it ideal for fun applications and projects.
